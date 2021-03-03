@@ -3,8 +3,8 @@
 ### Bloom-PMT and Cuckoo-PMT
 
 - This repository includes two ElGamal based PMT (private membership test) implementations in Go language (for academic use only).
-    - Bloom-PMT: proposed in the paper "_How to end password reuse on the web_" (NDSS '19)
-    - Cuckoo-PMT: proposed in the paper "_Detecting Stuffing of a User’s Credentials at Her Own Accounts_" (USENIX Security '20)
+    - Bloom-PMT: proposed in the paper "[_How to end password reuse on the web_](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_06A-5_Wang_paper.pdf)" (NDSS '19)
+    - Cuckoo-PMT: proposed in the paper "[_Detecting Stuffing of a User’s Credentials at Her Own Accounts_](https://www.usenix.org/system/files/sec20-wang.pdf)" (USENIX Security '20)
     
 - Both PMTs need one round of interaction. For Bloom-PMT, a response message includes only one ciphertext. In most cases, Cuckoo-PMT requires smaller query messages 
   and has better overall computation and communication complexity. Both protocols allow checking if keys and ciphertexts are well-formed.
