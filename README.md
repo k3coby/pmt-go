@@ -55,7 +55,7 @@ go run example.go -keyLength=256 -setSize=4096 -numThreads=1 -enablePC=false -re
 @inproceedings{wang2019:reuse,
   title = {How to end password reuse on the web},
   author = {Wang, Ke Coby and Reiter, Michael K.},
-  booktitle = {26\textsuperscript{th} Annual Network and Distributed System Security Symposium},
+  booktitle = {26\textsuperscript{th} {ISOC} Network and Distributed System Security Symposium},
   publisher = {Internet Society},
   month = {Feb},
   year = {2019}
